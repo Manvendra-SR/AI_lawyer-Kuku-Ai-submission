@@ -1,0 +1,318 @@
+==============================================================================
+TEST 01: damaged_product_refund_refused
+Model: openai/gpt-oss-120b   |   Run: eval_20261120_213557
+User language: hinglish   |   Case ID in MySQL: 57
+==============================================================================
+
+--- EXTRACTED CASE (stored in MySQL, after the conversation) ----------------
+  title: Damaged Redmi Note 13 from Amazon – refund not provided
+  category: damaged_or_defective
+  status: intake
+  language: hi
+  seller_name: None
+  platform: Amazon
+  product_details: Redmi Note 13 phone
+  order_id: 402-7781234-5566
+  purchase_date: 12 October 2026
+  delivery_date: 15 October 2026
+  amount_paid: 18,999 rupaye
+  description: User purchased a Redmi Note 13 phone on Amazon on 12 October 2026, received it damaged on 15 October 2026, and after contacting customer care on 16 October 2026 the seller refused a refund stating the return window was closed. User has an unboxing video and photos as evidence and seeks a full refund.
+  previous_communication: Seller (via customer care call on 16 October 2026) refused refund, stating the return window was closed.
+  evidence: ["unboxing video", "photos"]
+  desired_resolution: Full refund of 18,999 rupaye
+  missing_information: ["seller_name"]
+  timeline:
+    1. 12 October 2026 — Order placed for Redmi Note 13
+    2. 15 October 2026 — Damaged phone delivered
+    3. 16 October 2026 — Customer care call; seller refused refund citing closed return window
+
+--- TURN 1 ------------------------------------------------------------
+USER:
+Maine Amazon se phone kharida tha, lekin damaged aaya aur seller refund nahi de raha.
+
+ASSISTANT (hi):
+Namaste! Aapka phone damaged aane aur seller ke refund na dene ka anubhav sun kar khed hua. Kuch aur details mil sakti hain taaki aapki sahayata achhi tarah se ho sake?
+- Phone kharidne ki tareekh aur aapne kitna paisa diya?
+- Order ID ya invoice number kya hai?
+- Seller ne aapke refund request par kya jawab diya (koi likhit ya call record)?
+- Kya aapke paas photo, video ya chat screenshots jaise saboot hain?
+Jab ye jaankari mil jayegi, aap "Legal Guidance" khol kar poora source‑backed analysis dekh sakte hain aur "Document Studio" se complaint draft kar sakte hain.
+
+Checks: scope=in_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- TURN 2 ------------------------------------------------------------
+USER:
+Phone Redmi Note 13 tha, 12 October 2026 ko order kiya aur 15 October ko deliver hua. Maine 18,999 rupaye diye the. Order ID 402-7781234-5566 hai.
+
+ASSISTANT (hi):
+Namaste! Aapke phone ke damaged aane aur seller ke refund na dene ke mamle mein kuch aur jaankari chahiye hogi:
+- Seller ya company ka naam (Amazon ke marketplace par kaun se seller ne phone becha?)
+- Aapko refund chahiye ya replacement? 
+- Seller ya Amazon ke customer care ne aapki shikayat par kya kaha (koi likhit jawab, call record, ya email)?
+- Kya aapke paas phone ki photo/video, invoice, ya chat/screenshots jaise saboot hain?
+
+Jab ye details mil jayengi, aap "Legal Guidance" khol kar source‑backed analysis dekh sakte hain. Aapke case ke liye relevant provisions hain:
+- Rule 6(3) ke tahat, marketplace seller ko defective product ke liye refund dena anivaary hai [S2].
+- Rule 4(4)-(5) ke mutabik, Amazon ko grievance officer appoint karna aur 48 ghante mein complaint acknowledge karna, aur ek mahine ke andar suljhaana chahiye [S4].
+
+In sab ko dhyan mein rakhte hue, aap grievance officer ko likhit shikayat bhej sakte hain aur zaroori saboot attach kar sakte hain. Agar aapko draft ya aage ki madad chahiye, "Document Studio" se complaint ka patra bana sakte hain.
+
+Cited official sources:
+  [S2] Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(1)-(3), p. 10   (hybrid: BM25 rank 1, dense rank 12)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=10
+  [S4] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(4)-(8), pp. 8-9   (hybrid: BM25 rank 18, dense rank 2)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=8
+Checks: scope=in_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- TURN 3 ------------------------------------------------------------
+USER:
+16 October ko customer care ko call kiya tha, unhone bola return window close ho gayi hai. Mere paas unboxing video aur photos hain. Mujhe pura refund chahiye.
+
+ASSISTANT (hi):
+Namaste! Aapke paas phone ki unboxing video, photos aur seller ke refusal ka saboot hai, jo aapke hak ko majboot banata hai.
+
+**Kya karna chahiye:**
+1. **Amazon ke grievance officer ko likhit shikayat bhejein** (email ya registered post) –
+   - Order details, damage ka varnan, aur saboot (video, photos, invoice) attach karein.
+   - Refund ki maang karein (pura ₹18,999).
+   - Rule 6(4) ke tahat, grievance officer ko 48 ghante mein aapki shikayat ki receipt acknowledge karni chahiye aur ek mahine ke andar suljhaana hoga [S2].
+2. **Amazon ki grievance redressal mechanism ka upyog karein** – Rule 4(4)-(5) ke mutabik, platform ko ek grievance officer appoint karna aur complaint ko ek mahine mein resolve karna zaroori hai [S4].
+3. Agar 48 ghante ke andar acknowledgment na mile ya ek mahine ke baad bhi refund na ho, to aap **District Consumer Disputes Redressal Commission** (DCDRC) me complaint file kar sakte hain (2 saal ki limitation period). 
+4. **Seller ke prati bhi aapka adhikar** – Rule 6(3) ke anusar, defective product ke liye seller ko refund dena anivaary hai [S3].
+
+**Practical tips:**
+- Sabhi communication (calls ka date‑time, email, chat screenshots) ko likhit roop mein sambhal kar rakhein.
+- Complaint mein “return window close” ka jawab bhi mention karein, kyunki defective hone par return policy se alag samjha ja sakta hai.
+- “Legal Guidance” khol kar poora source‑backed analysis dekh sakte hain, aur “Document Studio” se ek formal complaint draft kar sakte hain.
+
+Aapko shubhkaamnaayein – ummeed hai ki aapka refund jaldi mil jayega.
+
+Cited official sources:
+  [S2] Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(4), p. 10   (hybrid: BM25 rank 5, dense rank 4)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=10
+  [S3] Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(1)-(3), p. 10   (hybrid: BM25 rank 1, dense rank 12)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=10
+  [S4] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(4)-(8), pp. 8-9   (hybrid: BM25 rank 11, dense rank 2)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=8
+Checks: scope=in_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- LEGAL GUIDANCE -----------------------------------------------------------
+What happened:
+  User ne 12 October 2026 ko Amazon se Redmi Note 13 phone kharida. Phone 15 October ko damaged aaya. 16 October ko customer care ko call kiya, lekin seller ne return window band hone ka bahana karte hue refund dene se inkaar kar diya. User ke paas unboxing video aur photos hain.
+Protections (verified, cited):
+  - Rule 6(3) ke tahat koi bhi seller jo marketplace e‑commerce entity ke through goods bechta hai, usse defective ya deficient goods ke liye refund dene se inkaar nahi karna chahiye.  ['S1']
+  - Rule 6(4)(b) ke anusar seller ko grievance officer appoint karna hota hai jo consumer complaint ko 48 ghante ke andar acknowledge kare aur ek mahine ke andar redress kare.  ['S2']
+  - Rule 4(5) ke mutabik e‑commerce entity ka grievance officer complaint ko 48 ghante ke andar acknowledge karna aur ek mahine ke andar suljhana zaroori hai.  ['S4']
+  - Rule 4(10) ke tahat e‑commerce entity ko refund request ko “reasonable period of time” ya applicable law ke anusar process karna hota hai.  ['S8']
+Options:
+  - Seller ko likhit shikayat bheje: Amazon ke seller (ya Amazon khud, agar seller unknown ho) ko email ya registered post ke through likhit shikayat bheje, jisme damaged product, return window ka issue, aur refund ki maang spasht roop se likhe. Unko Rule 6(3) aur Rule 6(4)(b) ka ullekh karein.  []
+  - Amazon ke grievance officer se sampark karein: Amazon ke grievance officer ko likhit complaint bheje (email/portal). Unse 48 ghante ke andar acknowledgment aur ek mahine ke andar solution ki maang karein, jo Rule 6(4)(b) aur Rule 4(5) mein likha hai.  ['S2', 'S4']
+  - National Consumer Helpline (NCH) se sahayata lein: NCH ko call ya online portal ke through complaint register karein; yeh aapko aage ki prakriya aur consumer forum tak pahunchane mein madad karega.  []
+  - Consumer Dispute Redressal Forum (District/State Commission) me case file karein: Agar seller ya platform se satisfactory response na mile, to aap apne jurisdiction ke District Consumer Disputes Redressal Commission me complaint file kar sakte hain. Complaint me Rule 6(3) ka ullekh karein.  []
+  - Mediation ya Alternate Dispute Resolution (ADR) ka prayog: Kuch e‑commerce platforms mediation service offer karte hain; aap isse bhi try kar sakte hain.  []
+Next steps:
+  - 1. Sabhi evidence (unboxing video, photos, order invoice, payment receipt, chat/email logs) ko digital aur hard copy dono mein surakshit rakhein.
+  - 2. Amazon ke seller ya Amazon customer support ko likhit shikayat bheje (email ya registered post) – ismein order ID, purchase date, delivery date, defect ka varnan, aur refund ki maang likhe. Rule 6(3) ka ullekh karein.
+  - 3. Amazon ke grievance officer ko portal ya email ke through complaint register karein; 48 ghante ke andar acknowledgment ki maang karein.
+  - 4. Agar 48 ghante ke andar acknowledgment na mile ya ek mahine ke andar solution na ho, to NCH ko call karein aur complaint ka reference number lein.
+  - 5. 2-3 weeks ke andar koi response na milne par, apne jurisdiction ke District Consumer Disputes Redressal Commission me written complaint file karein (online ya offline).
+  - 6. Complaint file karte waqt sabhi evidence ki copies attach karein aur Rule 6(3) ka citation karein.
+Evidence to preserve:
+  - Unboxing video (original file)
+  - Photos of damaged phone
+  - Order confirmation email/SMS
+  - Payment receipt/bank statement showing Rs. 18,999 debit
+  - Delivery challan (if available)
+  - Customer care call record (call log, if recorded) ya call summary
+  - All email/chat correspondence with seller/Amazon
+  - Any written policy screenshots showing return window
+General suggestions (not from sources):
+  - Har communication ko likhit roop mein rakhein – email ya registered post se bheje gaye patra ka proof zaroori hota hai.
+  - Amazon app ya website par ‘Your Orders’ section se order details ka screenshot lein.
+  - Agar platform par grievance officer ka contact detail milta hai, to uska screenshot lein.
+  - Refund request ke liye polite lekin firm tone ka upyog karein; apne adhikar (Rule 6(3)) ka ullekh karein.
+  - Agar aapko response milta hai, to uska record rakhein – chahe wo acceptance ho ya denial.
+Missing information:
+  - Seller ka exact naam (agar Amazon ke marketplace seller hai to uska business name).
+  - Amazon ki specific return policy jo aapke order par lagu hoti hai.
+  - Kya aapne product ko Amazon ke return portal ke through initiate kiya tha ya nahi.
+Uncertainties:
+  - Exact time limit for filing consumer forum complaint (SOURCES mein nahi diya).
+  - Amazon ke internal grievance officer ka exact contact details aur escalation matrix (SOURCES mein nahi).
+  - Seller ke apne return policy ki specific terms jo platform par dikhayi gayi ho sakti hain.
+Lawyer: recommended=True — Amount Rs. 18,999 ka hai aur dispute marketplace seller ke saath hai; agar platform ya seller se satisfactory solution na mile to consumer forum me case file karne ke liye legal drafting aur representation ki zarurat pad sakti hai.
+Cited official sources:
+  [S1] Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(1)-(3), p. 10   (hybrid: BM25 rank 1, dense rank 5)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=10
+  [S2] Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(4), p. 10   (hybrid: BM25 rank 6, dense rank 1)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=10
+  [S4] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(4)-(8), pp. 8-9   (hybrid: BM25 rank 12, dense rank 2)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=8
+  [S8] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(9)-(11), p. 9   (hybrid: BM25 rank 23, dense rank 6)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=9
+Checks: {'demoted_uncited_protections': 0, 'removed_invalid_refs': [], 'unverified_mentions': []}
+
+--- DOCUMENT: seller_complaint (en) ------------------------------
+DRAFT — generated by NyayaAI for your review. Verify every fact, fill in all [PLACEHOLDERS], and consider consulting a qualified lawyer before sending. This is not legal advice.
+============================================================
+
+20 November 2026
+
+To,
+The Grievance Officer / Customer Care,
+Amazon India
+[GRIEVANCE OFFICER NAME]
+[GRIEVANCE OFFICER CONTACT]
+
+Subject: Request for Full Refund of Rs. 18,999 for Defective Redmi Note 13 (Order ID: 402-7781234-5566)
+
+Dear Sir/Madam,
+
+I, [YOUR FULL NAME], residing at [YOUR ADDRESS], am writing to formally lodge a complaint regarding a defective product received from your platform and to seek a full refund of Rs. 18,999.
+
+**Order Details**
+- Order ID: 402-7781234-5566
+- Product: Redmi Note 13 mobile phone
+- Purchase Date: 12 October 2026
+- Delivery Date: 15 October 2026
+- Amount Paid: Rs. 18,999
+
+**Nature of the Complaint**
+On 15 October 2026, the phone was delivered in a damaged condition. I recorded an unboxing video and photographs, which clearly show the defect. I immediately contacted Amazon Customer Care on 16 October 2026. During the call, the seller refused to process a refund, stating that the return window had closed.
+
+**Legal Grounds**
+1. **Consumer Protection (E‑Commerce) Rules, 2020 – Rule 6(3)** stipulates that a seller shall not refuse to refund consideration if the goods are defective. The refusal to accept the return of a damaged phone constitutes a violation of this provision.
+2. **Rule 6(4)(b)** and **Rule 4(5)** require the appointed grievance officer to acknowledge receipt of any consumer complaint within forty‑eight (48) hours and to redress the complaint within one month from the date of receipt. I therefore request that this complaint be acknowledged within the stipulated time and resolved accordingly.
+
+**Evidence**
+- Unboxing video (attached)
+- Photographs of the damaged phone (attached)
+
+**Requested Relief**
+In view of the above, I kindly request:
+1. A full refund of Rs. 18,999 to the original mode of payment.
+2. Confirmation of the refund processing timeline.
+
+I trust that Amazon, as the marketplace e‑commerce entity, will enforce the seller’s obligations under the Consumer Protection (E‑Commerce) Rules, 2020 and ensure a prompt and fair resolution.
+
+Please acknowledge receipt of this complaint within forty‑eight (48) hours as mandated, and kindly inform me of the steps being taken to process the refund.
+
+Thank you for your attention to this matter.
+
+Yours faithfully,
+
+[YOUR FULL NAME]
+[YOUR EMAIL]
+[YOUR PHONE]
+[YOUR ADDRESS]
+
+Document checks: {'generator': 'llm', 'placeholders': 8, 'unknown_numbers': [], 'unverified_mentions': []}
+
+--- DOCUMENT: refund_request (hi) ------------------------------
+ड्राफ्ट — NyayaAI द्वारा आपकी समीक्षा के लिए तैयार। भेजने से पहले हर तथ्य की जाँच करें, सभी [PLACEHOLDERS] भरें, और ज़रूरत हो तो किसी योग्य वकील से सलाह लें। यह कानूनी सलाह नहीं है।
+============================================================
+
+20 November 2026
+
+[YOUR FULL NAME]
+[YOUR ADDRESS]
+Email: [YOUR EMAIL]
+Phone: [YOUR PHONE NUMBER]
+
+To,
+Customer Care – Amazon
+[SELLER ADDRESS]
+
+Subject: Request for Full Refund – Order ID 402-7781234-5566
+
+Sir/Madam,
+
+I am writing to formally request a full refund of INR 18,999 for the Redmi Note 13 phone purchased on 12 October 2026 (Order ID: 402-7781234-5566) and delivered on 15 October 2026. Upon delivery the device was visibly damaged. I reported the defect to your customer care on 16 October 2026. During that call the seller refused the refund, citing that the return window was closed.
+
+Please note that under the Consumer Protection (E‑Commerce) Rules, 2020 – Rule 6(3), a seller offering goods through a marketplace e‑commerce entity shall not refuse to refund consideration if the goods are defective. Additionally, Rule 6(4)(b) obliges the grievance officer to acknowledge a consumer complaint within forty‑eight hours and to redress it within one month. The refusal to accept the return and to refund the amount is therefore contrary to these statutory duties.
+
+In view of the above, I request the full refund of INR 18,999 to be processed within a reasonable time. I have attached the unboxing video and photographs as evidence of the damage.
+
+Kindly confirm receipt of this request and inform me of the next steps.
+
+Thank you for your prompt attention.
+
+Yours faithfully,
+
+[YOUR FULL NAME]
+
+Document checks: {'generator': 'llm', 'placeholders': 6, 'unknown_numbers': [], 'unverified_mentions': []}
+
+--- DOCUMENT: statement_of_facts (en) ------------------------------
+DRAFT — generated by NyayaAI for your review. Verify every fact, fill in all [PLACEHOLDERS], and consider consulting a qualified lawyer before sending. This is not legal advice.
+============================================================
+
+CHRONOLOGICAL STATEMENT OF FACTS
+
+Case: Damaged Redmi Note 13 from Amazon – refund not provided
+
+Seller / company: [NOT PROVIDED]
+Platform: Amazon
+Product: Redmi Note 13 phone
+Order ID: 402-7781234-5566
+Purchase date: 12 October 2026
+Delivery date: 15 October 2026
+Amount paid: 18,999 rupaye
+Communication with seller: Seller (via customer care call on 16 October 2026) refused refund, stating the return window was closed.
+Resolution sought: Full refund of 18,999 rupaye
+Evidence available: unboxing video; photos
+
+Timeline:
+1. 12 October 2026 — Order placed for Redmi Note 13
+2. 15 October 2026 — Damaged phone delivered
+3. 16 October 2026 — Customer care call; seller refused refund citing closed return window
+
+Summary of dispute: User purchased a Redmi Note 13 phone on Amazon on 12 October 2026, received it damaged on 15 October 2026, and after contacting customer care on 16 October 2026 the seller refused a refund stating the return window was closed. User has an unboxing video and photos as evidence and seeks a full refund.
+
+Declaration: I state that the above facts are true to the best of my knowledge.
+Name: [YOUR FULL NAME]    Signature: ____________    Date: 20 November 2026
+
+Document checks: {'generator': 'deterministic (no LLM)', 'placeholders': 2, 'unknown_numbers': [], 'unverified_mentions': []}
+
+==============================================================================
+AUTOMATIC CHECKS
+  [PASS] turn 1: reply language matches user (hinglish)
+  [PASS] turn 1: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 1: no unverified legal references in reply
+  [PASS] turn 1: every displayed source is a real official indexed passage
+  [PASS] turn 2: reply language matches user (hinglish)
+  [PASS] turn 2: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 2: no unverified legal references in reply
+  [PASS] turn 2: every displayed source is a real official indexed passage
+  [PASS] turn 3: reply language matches user (hinglish)
+  [PASS] turn 3: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 3: no unverified legal references in reply
+  [PASS] turn 3: every displayed source is a real official indexed passage
+  [PASS] category as expected
+  [PASS] extracted amount_paid contains '18,999'
+  [PASS] extracted order_id contains '402-7781234-5566'
+  [PASS] persisted in DB: messages
+  [PASS] persisted in DB: case_events (timeline)
+  [PASS] guidance returns 200
+  [PASS] every protection cites a retrieved source
+  [PASS] guidance has no unverified legal references
+  [PASS] guidance sources are real official indexed passages
+  [PASS] guidance language matches (hinglish)
+  [PASS] guidance makes no outcome guarantees (model-written text only)
+  [PASS] guidance includes lawyer note
+  [PASS] document seller_complaint (en) returns 200
+  [PASS] document seller_complaint: labelled as DRAFT
+  [PASS] document seller_complaint: no unverified legal references
+  [PASS] document seller_complaint: no numbers absent from case record
+  [PASS] document seller_complaint: TXT download works
+  [PASS] document refund_request (hi) returns 200
+  [PASS] document refund_request: labelled as DRAFT
+  [PASS] document refund_request: no unverified legal references
+  [PASS] document refund_request: no numbers absent from case record
+  [PASS] document refund_request: TXT download works
+  [PASS] document statement_of_facts (en) returns 200
+  [PASS] document statement_of_facts: labelled as DRAFT
+  [PASS] document statement_of_facts: no unverified legal references
+  [PASS] document statement_of_facts: no numbers absent from case record
+  [PASS] document statement_of_facts: TXT download works
+  => 39/39 passed

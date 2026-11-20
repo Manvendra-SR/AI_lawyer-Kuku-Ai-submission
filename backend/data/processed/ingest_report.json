@@ -1,0 +1,158 @@
+{
+  "documents": [
+    {
+      "id": "cpa2019",
+      "title": "The Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+      "download_status": "downloaded",
+      "pages": 40,
+      "english_lines": 2215,
+      "sections_detected": 107,
+      "chunks": 157,
+      "parts": {
+        "0": "Consumer Protection Act, 2019"
+      },
+      "indexed": true
+    },
+    {
+      "id": "ecom_rules_2020",
+      "title": "Consumer Protection (E-Commerce) Rules, 2020",
+      "download_status": "downloaded",
+      "pages": 11,
+      "english_lines": 221,
+      "sections_detected": 8,
+      "chunks": 19,
+      "parts": {
+        "0": "Consumer Protection (E-Commerce) Rules, 2020"
+      },
+      "indexed": true
+    },
+    {
+      "id": "ecom_rules_2020_corrigendum",
+      "title": "Corrigendum to the Consumer Protection (E-Commerce) Rules, 2020",
+      "download_status": "downloaded",
+      "pages": 1,
+      "english_lines": 20,
+      "sections_detected": 0,
+      "chunks": 1,
+      "parts": {},
+      "indexed": true
+    },
+    {
+      "id": "ecom_amend_2021",
+      "title": "Consumer Protection (E-Commerce) (Amendment) Rules, 2021",
+      "download_status": "downloaded",
+      "pages": 2,
+      "english_lines": 29,
+      "sections_detected": 2,
+      "chunks": 3,
+      "parts": {
+        "0": "Consumer Protection (E-Commerce) (Amendment) Rules, 2021"
+      },
+      "indexed": true
+    },
+    {
+      "id": "ecom_amend_2026",
+      "title": "Consumer Protection (E-Commerce) (Amendment) Rules, 2026",
+      "download_status": "downloaded",
+      "pages": 7,
+      "english_lines": 123,
+      "sections_detected": 2,
+      "chunks": 7,
+      "parts": {
+        "0": "Consumer Protection (E-Commerce) (Amendment) Rules, 2026"
+      },
+      "indexed": true
+    },
+    {
+      "id": "cdrc_rules_2020",
+      "title": "Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020 & General Rules, 2020",
+      "download_status": "downloaded",
+      "pages": 18,
+      "english_lines": 392,
+      "sections_detected": 23,
+      "chunks": 32,
+      "parts": {
+        "0": "Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020"
+      },
+      "indexed": true
+    },
+    {
+      "id": "jurisdiction_rules_2021",
+      "title": "Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021",
+      "download_status": "downloaded",
+      "pages": 2,
+      "english_lines": 35,
+      "sections_detected": 5,
+      "chunks": 6,
+      "parts": {
+        "0": "Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021"
+      },
+      "indexed": true
+    },
+    {
+      "id": "mediation_rules_2020",
+      "title": "Consumer Protection (Mediation) Rules, 2020",
+      "download_status": "downloaded",
+      "pages": 4,
+      "english_lines": 63,
+      "sections_detected": 7,
+      "chunks": 8,
+      "parts": {
+        "0": "Consumer Protection (Mediation) Rules, 2020"
+      },
+      "indexed": true
+    },
+    {
+      "id": "commission_procedure_regs_2020",
+      "title": "Consumer Protection (Consumer Commission Procedure) Regulations, 2020",
+      "download_status": "downloaded",
+      "pages": 14,
+      "english_lines": 261,
+      "sections_detected": 26,
+      "chunks": 27,
+      "parts": {
+        "0": "Consumer Protection (Consumer Commission Procedure) Regulations, 2020"
+      },
+      "indexed": true
+    },
+    {
+      "id": "dark_patterns_2023",
+      "title": "Guidelines for Prevention and Regulation of Dark Patterns, 2023",
+      "download_status": "downloaded",
+      "pages": 11,
+      "english_lines": 202,
+      "sections_detected": 7,
+      "chunks": 19,
+      "parts": {},
+      "indexed": true
+    },
+    {
+      "id": "nch_home",
+      "title": "National Consumer Helpline (NCH) - Home",
+      "download_status": "downloaded",
+      "paragraphs": 24,
+      "chunks": 2,
+      "note": null,
+      "indexed": true
+    },
+    {
+      "id": "nch_about",
+      "title": "National Consumer Helpline (NCH) - About Us",
+      "download_status": "downloaded",
+      "paragraphs": 43,
+      "chunks": 5,
+      "note": null,
+      "indexed": true
+    },
+    {
+      "id": "ejagriti_home",
+      "title": "e-Jagriti consumer commission filing portal",
+      "download_status": "downloaded",
+      "paragraphs": 0,
+      "chunks": 0,
+      "note": "No extractable text (page is rendered by JavaScript); not indexed.",
+      "indexed": false
+    }
+  ],
+  "total_chunks": 286
+}

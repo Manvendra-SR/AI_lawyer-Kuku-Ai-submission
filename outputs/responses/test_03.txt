@@ -1,0 +1,307 @@
+==============================================================================
+TEST 03: product_never_delivered
+Model: openai/gpt-oss-120b   |   Run: eval_20261120_213557
+User language: hi   |   Case ID in MySQL: 59
+==============================================================================
+
+--- EXTRACTED CASE (stored in MySQL, after the conversation) ----------------
+  title: Mixer grinder not delivered – payment made
+  category: not_delivered
+  status: ready
+  language: hi
+  seller_name: ShopKart Deals
+  platform: ShopKart Deals
+  product_details: मिक्सर ग्राइंडर
+  order_id: None
+  purchase_date: 1 अक्टूबर 2026
+  delivery_date: None
+  amount_paid: 6,500 रुपये
+  description: User paid 6,500 रुपये for a mixer grinder ordered from ShopKart Deals, but the item was never received despite tracking showing delivered.
+  previous_communication: None
+  evidence: ["payment SMS", "order confirmation email"]
+  desired_resolution: Full refund
+  missing_information: ["order_id", "previous_communication"]
+  timeline:
+    1. 1 अक्टूबर 2026 — Placed order for mixer grinder on ShopKart Deals.
+    2. [no date] — Tracking shows delivered but item not received.
+    3. [no date] — User possesses payment SMS and order confirmation email as evidence.
+    4. [no date] — User requests full refund.
+
+--- TURN 1 ------------------------------------------------------------
+USER:
+मैंने एक ऑनलाइन वेबसाइट से 6,500 रुपये का मिक्सर ग्राइंडर ऑर्डर किया था और पैसे पहले ही दे दिए, लेकिन सामान कभी डिलीवर नहीं हुआ।
+
+ASSISTANT (hi):
+नमस्ते! आपके मिक्सर‑ग्राइंडर की डिलीवरी न होने की समस्या समझ में आई।
+
+कृपया नीचे दी गई जानकारी साझा कर सकते हैं?
+• विक्रेता/वेबसाइट का नाम और आपका ऑर्डर/इनवॉइस नंबर
+• ऑर्डर की तिथि और भुगतान का प्रमाण (स्क्रीनशॉट/रसीद)
+• विक्रेता या ग्राहक‑सेवा से अब तक की बातचीत (यदि कोई उत्तर मिला हो)
+
+इन विवरणों से हम आपके अधिकारों (जैसे रिफंड या वस्तु की डिलीवरी) को समझ सकते हैं और आगे की प्रक्रिया बता सकते हैं।
+
+जब सभी तथ्य स्पष्ट हो जाएँ, तो आप "Legal Guidance" खोल कर स्रोत‑आधारित विस्तृत जानकारी ले सकते हैं और "Document Studio" से शिकायत पत्र तैयार कर सकते हैं।
+
+Checks: scope=in_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- TURN 2 ------------------------------------------------------------
+USER:
+वेबसाइट का नाम ShopKart Deals है। 1 अक्टूबर 2026 को ऑर्डर किया था। ट्रैकिंग में delivered दिखा रहा है पर मुझे कुछ नहीं मिला। मेरे पास पेमेंट का SMS और ऑर्डर का ईमेल है।
+
+ASSISTANT (hi):
+धन्यवाद, अब आपके पास कुछ महत्वपूर्ण जानकारी है।
+
+**अभी के लिए कुछ और पूछना चाहूँगा:**
+1. आपने ShopKart Deals की ग्राहक‑सेवा (ई‑मेल/फ़ोन) से संपर्क किया है? अगर हाँ, तो उनका जवाब क्या रहा (कोई रिफंड वादा, डिलीवरी का नया वादा, या कोई उत्तर नहीं मिला)?
+2. आप इस स्थिति से क्या चाहते हैं – पूरी रिफंड, फिर से डिलीवरी, या कोई अन्य समाधान?
+
+**संक्षिप्त दिशा‑निर्देश:**
+- ई‑कॉमर्स नियमों के अनुसार, विक्रेता को "उत्पाद न मिलने पर रिफंड देना" या "वस्तु वापस ले लेना" अनिवार्य है (देखें Rule 6(3) [S2])।
+- यदि विक्रेता ने उचित उत्तर नहीं दिया, तो आप प्लेटफ़ॉर्म के grievance officer को लिखित शिकायत भेज सकते हैं; उन्हें 48 घंटे में स्वीकार करना और एक महीने के भीतर समाधान देना अनिवार्य है (Rule 4(4)‑(5) [S4])।
+- आपके पास भुगतान का SMS और ऑर्डर ई‑मेल है, जो सबूत के रूप में काम आएँगे।
+
+जब आप ऊपर पूछे गए बिंदु स्पष्ट कर देंगे, तो आप "Legal Guidance" खोल कर स्रोत‑आधारित विस्तृत जानकारी ले सकते हैं और "Document Studio" से शिकायत पत्र (उदाहरण: रिफंड की मांग) तैयार कर सकते हैं।
+
+**अगला कदम:**
+1. विक्रेता/ShopKart Deals से लिखित (ई‑मेल/संदेश) में अपना मुद्दा दोहराएँ और रिफंड/डिलीवरी का स्पष्ट अनुरोध करें।
+2. यदि 48 घंटे में उत्तर नहीं मिलता, तो प्लेटफ़ॉर्म के grievance officer को लिखें (उनका नाम/संपर्क साइट पर दिखता है – Rule 5(3) [S6])।
+3. उत्तर न मिलने पर आप उपभोक्ता फोरम (जिला/राज्य) में शिकायत दर्ज कर सकते हैं।
+
+Cited official sources:
+  [S2] Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(1)-(3), p. 10   (hybrid: BM25 rank 2, dense rank 8)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=10
+  [S4] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(4)-(8), pp. 8-9   (hybrid: BM25 rank 6, dense rank 7)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=8
+  [S6] Consumer Protection (E-Commerce) Rules, 2020 — Rule 5(3), p. 9   (hybrid: BM25 rank 9, dense rank 5)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=9
+Checks: scope=in_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- TURN 3 ------------------------------------------------------------
+USER:
+मुझे पूरा रिफंड चाहिए।
+
+ASSISTANT (hi):
+आपको पूरा रिफंड चाहिए, यह समझ गया।
+
+**कानूनी आधार**
+- ई‑कॉमर्स नियमों के अनुसार, किसी भी विक्रेता को "वस्तु न मिलने पर रिफंड देना" अनिवार्य है (देखें Rule 6(3) [S4])।
+- प्लेटफ़ॉर्म को 48 घंटे में शिकायत स्वीकार करनी और एक महीने के भीतर समाधान देना है (Rule 4(4)‑(5) [S2])।
+
+**व्यावहारिक कदम**
+1. **लिखित शिकायत** – ShopKart Deals के grievance officer को ई‑मेल/संदेश में अपना ऑर्डर नंबर, भुगतान प्रमाण (SMS, ऑर्डर ई‑मेल) और रिफंड की मांग लिखें।
+2. **समय‑सीमा** – यदि 48 घंटे में पुष्टि नहीं मिलती, तो फिर से लिखें और उल्लेख करें कि नियम के तहत उन्हें एक महीने में समाधान देना है।
+3. **प्लेटफ़ॉर्म की मदद** – यदि विक्रेता जवाब नहीं देता, तो ShopKart Deals की grievance officer (उनका नाम/संपर्क साइट पर दिखता है) को सीधे लिखें (Rule 5(3) [S6])।
+4. **उपभोक्ता फोरम** – यदि एक महीने के भीतर समाधान नहीं मिलता, तो अपने जिले के उपभोक्ता विवाद निवारण आयोग (डिस्ट्रिक्ट कमिश्नर) में शिकायत दाखिल कर सकते हैं; वहाँ रिफंड की मांग पर विचार किया जाएगा।
+
+**अगला क्या करें**
+- अभी तक की सभी संवाद (ई‑मेल, SMS) को एक फ़ोल्डर में रखें।
+- “Legal Guidance” खोलें तो आपको स्रोत‑आधारित विस्तृत प्रक्रिया मिल जाएगी।
+- “Document Studio” से आप रिफंड की मांग वाला औपचारिक पत्र तैयार कर सकते हैं।
+
+Cited official sources:
+  [S2] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(4)-(8), pp. 8-9   (hybrid: BM25 rank 6, dense rank 4)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=8
+  [S4] Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(1)-(3), p. 10   (hybrid: BM25 rank 2, dense rank 14)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=10
+  [S6] Consumer Protection (E-Commerce) Rules, 2020 — Rule 7(1), p. 11   (hybrid: BM25 rank 5, dense rank 12)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=11
+Checks: scope=in_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- LEGAL GUIDANCE -----------------------------------------------------------
+What happened:
+  उपभोक्ता ने 1 अक्टूबर 2026 को ShopKart Deals से मिक्सर ग्राइंडर के लिए 6,500 रुपये का भुगतान किया। भुगतान के बाद ट्रैकिंग में डिलीवरी दिखाने के बावजूद वस्तु नहीं मिली। उपभोक्ता के पास भुगतान SMS और ऑर्डर पुष्टि ई‑मेल है और वह पूर्ण रिफंड चाहता है।
+Protections (verified, cited):
+  - Marketplace पर बेचने वाले किसी भी विक्रेता को भुगतान किया गया विचार (consideration) वापस करने से इनकार नहीं करना चाहिए, यदि वस्तु डिलीवर नहीं हुई या दोषपूर्ण हो।  ['S2']
+  - प्रत्येक ई‑कॉमर्स प्लेटफ़ॉर्म को एक पर्याप्त grievance redressal mechanism स्थापित करना अनिवार्य है, जिसमें grievance officer को शिकायत प्राप्त होने के 48 घंटे के भीतर स्वीकार करना और एक महीने के भीतर समाधान देना चाहिए।  ['S5']
+  - ई‑कॉमर्स प्लेटफ़ॉर्म को विक्रेता की पहचान, पता, ग्राहक‑सेवा नंबर आदि की जानकारी स्पष्ट रूप से प्रदर्शित करनी चाहिए, जिससे उपभोक्ता को सूचित निर्णय लेने में मदद मिले।  ['S3']
+  - इंवेंटरी ई‑कॉमर्स इकाई (या marketplace seller) को रिफंड, रिटर्न, वारंटी आदि की स्पष्ट जानकारी प्रदान करनी होती है।  ['S6']
+Options:
+  - विक्रेता को लिखित शिकायत भेजें: ShopKart Deals को ई‑मेल/पंजीकृत डाक के माध्यम से लिखित में रिफंड की मांग करें, नियम 6(3) का हवाला देते हुए बताएं कि वे रिफंड से इनकार नहीं कर सकते।  ['S2']
+  - प्लेटफ़ॉर्म के grievance officer को शिकायत दर्ज करें: ShopKart के grievance officer को लिखित शिकायत भेजें; उन्हें 48 घंटे में स्वीकार करना और एक महीने में समाधान देना अनिवार्य है।  ['S5']
+  - राष्ट्रीय उपभोक्ता हेल्पलाइन (1800‑11‑4000) पर संपर्क करें: हेल्पलाइन से मार्गदर्शन प्राप्त करें और शिकायत को दर्ज करने की प्रक्रिया के बारे में पूछें।  []
+  - स्थानीय उपभोक्ता फोरम (जिला उपभोक्ता विवाद निवारण आयोग) में शिकायत दाखिल करें: यदि विक्रेता या प्लेटफ़ॉर्म से समाधान नहीं मिलता, तो 2 साल के भीतर जिला उपभोक्ता आयोग में लिखित शिकायत दाखिल करें।  []
+  - मध्यस्थता (mediation) का अनुरोध करें: ShopKart के grievance प्रक्रिया के तहत उपलब्ध मध्यस्थता विकल्प का उपयोग करके विवाद सुलझाने की कोशिश करें।  []
+Next steps:
+  - 1. सभी उपलब्ध दस्तावेज़ (भुगतान SMS, ऑर्डर पुष्टि ई‑मेल, ट्रैकिंग स्क्रीनशॉट) को क्रमबद्ध रखें।
+  - 2. विक्रेता को लिखित (ई‑मेल या पंजीकृत डाक) में रिफंड की मांग करें; पत्र में अपना ऑर्डर विवरण, भुगतान प्रमाण, ट्रैकिंग स्थिति और Rule 6(3) का उल्लेख करें।
+  - 3. यदि 7‑10 दिनों में उत्तर नहीं मिलता, तो ShopKart के grievance officer को लिखित शिकायत भेजें; शिकायत में सभी प्रमाण संलग्न करें और Rule 5(4)-(5) का हवाला दें।
+  - 4. grievance officer से 48 घंटे के भीतर स्वीकृति की पुष्टि प्राप्त करें; यदि 1 महीने के भीतर समाधान नहीं मिलता, तो अगले कदम के रूप में जिला उपभोक्ता आयोग में शिकायत दाखिल करें।
+  - 5. राष्ट्रीय उपभोक्ता हेल्पलाइन से संपर्क करके प्रक्रिया की पुष्टि और अतिरिक्त मार्गदर्शन प्राप्त करें।
+Evidence to preserve:
+  - भुगतान का SMS/बैंक स्टेटमेंट
+  - ऑर्डर पुष्टि ई‑मेल (विवरण और राशि सहित)
+  - ट्रैकिंग स्क्रीनशॉट जिसमें ‘Delivered’ दिख रहा हो
+  - ShopKart Deals की वेबसाइट या ऐप पर उत्पाद पेज का स्क्रीनशॉट (कीमत, डिलीवरी शर्तें आदि)
+  - विक्रेता या प्लेटफ़ॉर्म के साथ हुई सभी लिखित बातचीत (ई‑मेल, चैट, कॉल रिकॉर्ड का सारांश)
+  - पंजीकृत डाक/ई‑मेल की रसीद (यदि भेजी गई हो)
+General suggestions (not from sources):
+  - सभी पत्राचार को पंजीकृत डाक या ई‑मेल के माध्यम से भेजें और डिलीवरी रसीद रखें।
+  - शिकायत में स्पष्ट रूप से ऑर्डर आईडी, भुगतान तिथि, राशि और डिलीवरी स्थिति लिखें।
+  - यदि प्लेटफ़ॉर्म पर रिटर्न/रिफंड नीति उपलब्ध है, तो उसे भी संलग्न करें।
+  - किसी भी कॉल या चैट का स्क्रीनशॉट लेकर लिखित रूप में बदलें।
+  - समय सीमा का ध्यान रखें; अधिकांश उपभोक्ता अधिकार 2 साल के भीतर लागू होते हैं।
+Missing information:
+  - ऑर्डर आईडी या इनवॉइस नंबर
+  - विक्रेता या प्लेटफ़ॉर्म से अब तक की कोई भी लिखित प्रतिक्रिया (यदि मिली हो)
+  - ट्रैकिंग में दिखाए गए डिलीवरी की तिथि और समय
+  - ShopKart के grievance officer का संपर्क विवरण (नाम, ई‑मेल, फोन)
+Uncertainties:
+  - विक्रेता की अपनी रिटर्न/रिफंड नीति के विवरण, जो प्लेटफ़ॉर्म की सामान्य नीति से अलग हो सकते हैं।
+  - ShopKart Deals को marketplace seller माना गया है या inventory e‑commerce entity, जिससे कुछ नियम (जैसे Rule 7) लागू हो सकते हैं।
+  - विक्रेता या प्लेटफ़ॉर्म द्वारा शिकायत को स्वीकार करने और समाधान देने की वास्तविक समयसीमा।
+Lawyer: recommended=True — यदि विक्रेता या प्लेटफ़ॉर्म से समाधान नहीं मिलता, या राशि अधिक है, तो एक योग्य उपभोक्ता वकील से परामर्श करें ताकि आप उचित कानूनी कार्रवाई (जैसे उपभोक्ता आयोग में याचिका) सही ढंग से दायर कर सकें।
+Cited official sources:
+  [S2] Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(1)-(3), p. 10   (hybrid: BM25 rank 2, dense rank 3)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=10
+  [S3] Consumer Protection (E-Commerce) Rules, 2020 — Rule 5(3), p. 9   (hybrid: BM25 rank 5, dense rank 5)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=9
+  [S5] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(4)-(8), pp. 8-9   (hybrid: BM25 rank 7, dense rank 9)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=8
+  [S6] Consumer Protection (E-Commerce) Rules, 2020 — Rule 7(1), p. 11   (hybrid: BM25 rank 3, dense rank 14)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=11
+Checks: {'demoted_uncited_protections': 0, 'removed_invalid_refs': [], 'unverified_mentions': []}
+
+--- DOCUMENT: seller_complaint (hi) ------------------------------
+ड्राफ्ट — NyayaAI द्वारा आपकी समीक्षा के लिए तैयार। भेजने से पहले हर तथ्य की जाँच करें, सभी [PLACEHOLDERS] भरें, और ज़रूरत हो तो किसी योग्य वकील से सलाह लें। यह कानूनी सलाह नहीं है।
+============================================================
+
+दिनांक: 20 नवंबर 2026
+
+सेवा में,
+शॉपकार्ट डील्स (Marketplace) के ग्रिवेंस अधिकारी / कस्टमर केयर,
+[SELLER ADDRESS]
+
+विषय: मिक्सर ग्राइंडर (ऑर्डर आईडी: [ORDER ID]) की डिलीवरी न होने के कारण पूर्ण धनवापसी की मांग
+
+मान्यवर,
+
+मैं, [YOUR FULL NAME], निवासी [YOUR ADDRESS], ने 1 अक्टूबर 2026 को आपके प्लेटफ़ॉर्म "ShopKart Deals" पर मिक्सर ग्राइंडर (₹6,500) का ऑर्डर दिया था। भुगतान का प्रमाण – भुगतान SMS तथा ऑर्डर कन्फर्मेशन ई‑मेल – मेरे पास उपलब्ध है।
+
+ऑर्डर के बाद ट्रैकिंग सिस्टम ने बताया कि वस्तु "Delivered" हो गई है, परन्तु वास्तविक रूप से मुझे उत्पाद प्राप्त नहीं हुआ है। इस स्थिति में, मैं निम्नलिखित बिंदुओं की ओर आपका ध्यान आकर्षित करना चाहता/चाहती हूँ:
+
+1. **विक्रेता की दायित्व** – Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(1)-(3) के अनुसार, किसी भी विक्रेता को वस्तु की डिलीवरी से इनकार या भुगतान किया गया धन वापस न करने का कोई अधिकार नहीं है।
+2. **ग्रिवेंस रिड्रेसल प्रक्रिया** – उपर्युक्त नियमों के अनुच्छेद 4(5) के तहत, ई‑कॉमर्स इकाई को यह सुनिश्चित करना अनिवार्य है कि ग्रिवेंस अधिकारी 48 घंटे के भीतर शिकायत की प्राप्ति की पुष्टि करे और एक माह के भीतर समाधान प्रदान करे।
+3. **उपभोक्ता के अधिकार** – मेरे पास भुगतान का प्रमाण है और वस्तु न मिलने की स्थिति में, मुझे पूर्ण धनवापसी का अधिकार है।
+
+उपरोक्त के प्रकाश में, मैं आपसे विनम्र अनुरोध करता/करती हूँ कि:
+- मेरे भुगतान की पूरी राशि ₹6,500 का तुरंत रीफ़ंड किया जाए;
+- रीफ़ंड प्रक्रिया की पुष्टि लिखित रूप में (ई‑मेल/एसएमएस) भेजी जाए;
+- इस शिकायत की प्राप्ति की पुष्टि 48 घंटे के भीतर की जाए, जैसा कि Rule 4(5) में निर्धारित है।
+
+कृपया इस मामले को शीघ्रता से निपटाने की कृपा करें। यदि इस अवधि में समाधान नहीं मिलता है, तो मैं उपभोक्ता संरक्षण प्राधिकरण के पास आगे की कार्रवाई करने पर विचार करूंगा/करूंगी।
+
+धन्यवाद,
+
+सादर,
+[YOUR FULL NAME]
+[YOUR EMAIL]
+[YOUR PHONE]
+[YOUR ADDRESS]
+
+Document checks: {'generator': 'llm', 'placeholders': 8, 'unknown_numbers': [], 'unverified_mentions': []}
+
+--- DOCUMENT: consumer_grievance (en) ------------------------------
+DRAFT — generated by NyayaAI for your review. Verify every fact, fill in all [PLACEHOLDERS], and consider consulting a qualified lawyer before sending. This is not legal advice.
+============================================================
+
+Date: 20 November 2026
+
+To,
+The Grievance Officer,
+[Marketplace E‑Commerce Entity Name]
+[Marketplace Address]
+[Marketplace Email / Phone]
+
+Subject: Complaint against ShopKart Deals for non‑delivery of paid goods and demand for full refund
+
+---
+
+**Parties**
+
+- **Complainant:** [YOUR FULL NAME], residing at [YOUR ADDRESS], contact number [YOUR PHONE NUMBER], email [YOUR EMAIL ID].
+- **Seller:** ShopKart Deals, operating on the marketplace platform "ShopKart Deals". (Seller details as displayed on the platform are not fully disclosed.)
+- **Marketplace E‑Commerce Entity:** [MARKETPLACE NAME] (the platform through which the order was placed).
+
+---
+
+**Facts**
+
+1. On 1 October 2026, the complainant placed an order for a "मिक्सर ग्राइंडर" (mixer grinder) on the marketplace platform ShopKart Deals.
+2. The total consideration paid was Rs. 6,500 (six thousand five hundred rupees). The payment was effected through [MODE OF PAYMENT] and is evidenced by the payment SMS attached.
+3. An order confirmation email was received from ShopKart Deals, confirming the order and the amount payable (see attached order confirmation email).
+4. The tracking information displayed on the platform shows the order as "delivered", however the complainant has not received the mixer grinder at the delivery address.
+5. No communication or clarification has been received from the seller despite the non‑delivery.
+6. The complainant seeks a full refund of the amount paid.
+
+---
+
+**Grievance**
+
+The seller, ShopKart Deals, has failed to deliver the goods for which the complainant has fully paid. Under the Consumer Protection (E‑Commerce) Rules, 2020, a seller offering goods through a marketplace shall not refuse to refund consideration if the goods are not delivered (Rule 6(3)). Moreover, the marketplace is required to maintain an adequate grievance redressal mechanism and ensure that the grievance officer acknowledges the complaint within forty‑eight hours and redresses it within one month (Rule 4(5)). The complainant therefore files this grievance seeking enforcement of the seller’s statutory duty to refund the consideration paid.
+
+---
+
+**Relief Sought**
+
+1. Full refund of Rs. 6,500 (six thousand five hundred rupees) paid for the mixer grinder.
+2. Confirmation in writing from the seller and the marketplace that the refund will be processed within the time‑frame prescribed under Rule 4(5) of the Consumer Protection (E‑Commerce) Rules, 2020.
+3. Any other relief that the Hon’ble Commission deems appropriate under the Consumer Protection Act, 2019 and the Consumer Protection (E‑Commerce) Rules, 2020.
+
+---
+
+**Documents Relied Upon**
+
+1. Payment SMS showing transfer of Rs. 6,500 to ShopKart Deals.
+2. Order confirmation email from ShopKart Deals.
+3. Screenshot of the tracking status indicating "delivered".
+4. Any correspondence (if any) with the seller (placeholder – attach if available).
+
+---
+
+The complainant respectfully requests the Hon’ble Commission to consider this grievance and pass appropriate orders for the relief sought.
+
+Yours faithfully,
+
+[YOUR FULL NAME]
+[YOUR SIGNATURE]
+[YOUR CONTACT DETAILS]
+
+Document checks: {'generator': 'llm', 'placeholders': 12, 'unknown_numbers': [], 'unverified_mentions': []}
+
+==============================================================================
+AUTOMATIC CHECKS
+  [PASS] turn 1: reply language matches user (hi)
+  [PASS] turn 1: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 1: no unverified legal references in reply
+  [PASS] turn 1: every displayed source is a real official indexed passage
+  [PASS] turn 2: reply language matches user (hi)
+  [PASS] turn 2: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 2: no unverified legal references in reply
+  [PASS] turn 2: every displayed source is a real official indexed passage
+  [PASS] turn 3: reply language matches user (hi)
+  [PASS] turn 3: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 3: no unverified legal references in reply
+  [PASS] turn 3: every displayed source is a real official indexed passage
+  [PASS] category as expected
+  [PASS] extracted amount_paid contains '6,500'
+  [PASS] persisted in DB: messages
+  [PASS] persisted in DB: case_events (timeline)
+  [PASS] guidance returns 200
+  [PASS] every protection cites a retrieved source
+  [PASS] guidance has no unverified legal references
+  [PASS] guidance sources are real official indexed passages
+  [PASS] guidance language matches (hi)
+  [PASS] guidance makes no outcome guarantees (model-written text only)
+  [PASS] guidance includes lawyer note
+  [PASS] document seller_complaint (hi) returns 200
+  [PASS] document seller_complaint: labelled as DRAFT
+  [PASS] document seller_complaint: no unverified legal references
+  [PASS] document seller_complaint: no numbers absent from case record
+  [PASS] document seller_complaint: TXT download works
+  [PASS] document consumer_grievance (en) returns 200
+  [PASS] document consumer_grievance: labelled as DRAFT
+  [PASS] document consumer_grievance: no unverified legal references
+  [PASS] document consumer_grievance: no numbers absent from case record
+  [PASS] document consumer_grievance: TXT download works
+  => 33/33 passed

@@ -1,0 +1,262 @@
+==============================================================================
+TEST 02: refund_not_received_after_cancellation
+Model: openai/gpt-oss-120b   |   Run: eval_20261120_213557
+User language: en   |   Case ID in MySQL: 58
+==============================================================================
+
+--- EXTRACTED CASE (stored in MySQL, after the conversation) ----------------
+  title: Refund not received for cancelled Flipkart order – OD3301234567
+  category: refund_not_received
+  status: intake
+  language: en
+  seller_name: None
+  platform: Flipkart
+  product_details: pair of running shoes
+  order_id: OD3301234567
+  purchase_date: None
+  delivery_date: None
+  amount_paid: Rs 3,499
+  description: User cancelled a Flipkart order for a pair of running shoes on 2 November 2026 before it was shipped. The payment was made via UPI. Customer care says the refund was initiated, but the Rs 3,499 refund has not been received after 18 days.
+  previous_communication: Customer care indicated the refund was initiated but no refund has arrived after 18 days.
+  evidence: ["cancellation email", "chat screenshots"]
+  desired_resolution: Refund of Rs 3,499
+  missing_information: ["seller_name", "purchase_date"]
+  timeline:
+    1. 2 November 2026 — User cancelled the order for running shoes on Flipkart.
+    2. [no date] — Customer care said refund was initiated, but no refund received after 18 days.
+
+--- TURN 1 ------------------------------------------------------------
+USER:
+I cancelled my Flipkart order for a pair of running shoes on 2 November 2026, before it was shipped, but the refund of Rs 3,499 has still not come.
+
+ASSISTANT (en):
+I’m sorry you’re still waiting for your refund. To help you move forward, could you share:
+• The order or invoice number for the shoes
+• Any response you’ve received from Flipkart’s customer care (e.g., reference number, promised date)
+
+Checks: scope=in_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- TURN 2 ------------------------------------------------------------
+USER:
+I paid by UPI. The order ID is OD3301234567. Customer care keeps saying the refund is initiated but it has been 18 days. I have the cancellation email and screenshots of the chats.
+
+ASSISTANT (en):
+I understand how frustrating this is. Here’s a quick roadmap:
+
+**What the law says**
+- The e‑commerce rules require the platform’s grievance officer to acknowledge any complaint within 48 hours and to resolve it within one month of receipt [S1].
+- Refunds must be processed in a "reasonable period of time" as prescribed by the RBI or other competent authority [S3].
+
+**Practical steps you can take now**
+1. **Raise a formal grievance on Flipkart** (if you haven’t already) – use the order ID OD3301234567 and attach the cancellation email and chat screenshots. Ask for the grievance officer’s name, contact details, and a clear deadline for the refund.
+2. **Escalate to the platform’s grievance officer** – mention that the refund was promised 18 days ago and that the 48‑hour acknowledgment and one‑month resolution timelines are not being met.
+3. **If no satisfactory response within 7‑10 days**, file a complaint with the National Consumer Helpline (1800‑11‑4000) or the consumer forum in your district. You have up to 2 years from the date of the refund denial to approach the forum.
+4. **Keep all evidence** – UPI transaction receipt, cancellation email, chat screenshots, and any reference numbers.
+
+When you’re ready, you can open **“Legal Guidance”** for a full source‑backed analysis and use **“Document Studio”** to draft a formal complaint.
+
+Cited official sources:
+  [S1] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(4)-(8), pp. 8-9   (hybrid: BM25 rank 2, dense rank 1)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=8
+  [S3] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(9)-(11), p. 9   (hybrid: BM25 rank 5, dense rank 6)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=9
+Checks: scope=in_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- TURN 3 ------------------------------------------------------------
+USER:
+I just want my money back.
+
+ASSISTANT (en):
+I get that you just want the Rs 3,499 back. Here’s what you can do next:
+
+**1. File a formal grievance on Flipkart** – use order OD3301234567, attach the cancellation email, UPI receipt and chat screenshots. Ask for the grievance officer’s name, contact details and a firm deadline for the refund.
+
+**2. Cite the e‑commerce rules** – the platform must acknowledge a complaint within 48 hours and resolve it within one month [S1]; refunds must be made in a reasonable period [S3]. Mention these provisions in your grievance.
+
+**3. If no satisfactory reply within 7‑10 days**, raise the issue with the National Consumer Helpline (1800‑11‑4000) or file a complaint in the consumer forum of your district (you have up to 2 years from the denial of refund).
+
+**4. Keep all evidence** – UPI transaction ID, cancellation email, chat screenshots, any reference numbers.
+
+When you’re ready, open **Legal Guidance** for a full source‑backed analysis and use **Document Studio** to draft a formal complaint.
+
+Cited official sources:
+  [S1] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(4)-(8), pp. 8-9   (hybrid: BM25 rank 3, dense rank 1)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=8
+  [S3] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(9)-(11), p. 9   (hybrid: BM25 rank 5, dense rank 5)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=9
+Checks: scope=in_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- LEGAL GUIDANCE -----------------------------------------------------------
+What happened:
+  The user cancelled a Flipkart order for a pair of running shoes on 2 November 2026 before it was shipped. The payment of Rs 3,499 was made via UPI. Customer care said the refund was initiated, but after 18 days the amount has not been received.
+Protections (verified, cited):
+  - Every e‑commerce entity must effect all payments towards accepted refund requests within a reasonable period of time as prescribed by the RBI or other competent authority.  ['S2']
+  - The e‑commerce platform must have a grievance redressal mechanism and display the grievance officer’s name and contact details.  ['S1']
+  - The grievance officer must acknowledge receipt of any consumer complaint within 48 hours and must redress the complaint within one month of receipt.  ['S1']
+  - A seller offering goods through a marketplace e‑commerce entity shall not refuse to refund consideration if the goods are defective, deficient, or if the consumer has cancelled the purchase.  ['S4']
+Options:
+  - Lodge a written complaint with Flipkart’s grievance officer: Use the grievance redressal mechanism shown on the Flipkart app/website, mention order ID, cancellation date, and request the pending refund. The platform must acknowledge within 48 hours and resolve within one month.  ['S1']
+  - Escalate to the National Consumer Helpline (NCH): Call or email the NCH (1800‑11‑4000) to register the complaint and get guidance on further steps.  []
+  - File a complaint with the District Consumer Disputes Redressal Commission: If the grievance officer does not resolve the issue within the stipulated time, submit a complaint (with all evidence) to the appropriate consumer commission under the Consumer Protection Act, 2019.  []
+  - Approach the Reserve Bank of India’s grievance portal for payment‑related issues: Since the refund involves a UPI transaction, you may raise a complaint on the RBI’s complaint portal if the payment remains unreconciled.  []
+Next steps:
+  - Gather all evidence (cancellation email, chat screenshots, UPI transaction receipt, order confirmation).
+  - Draft a concise written complaint addressed to Flipkart’s grievance officer, quoting order ID OD3301234567, cancellation date 2 Nov 2026, amount Rs 3,499, and attach the evidence.
+  - Submit the complaint through the platform’s grievance portal or email the officer’s displayed contact address.
+  - Wait for an acknowledgment within 48 hours; if none, follow up and note the date of follow‑up.
+  - If the complaint is not resolved within one month, file a complaint with the District Consumer Disputes Redressal Commission, attaching all documents.
+  - Simultaneously, you may call the National Consumer Helpline for guidance and to register the grievance.
+Evidence to preserve:
+  - Cancellation confirmation email dated 2 Nov 2026
+  - Chat screenshots showing the refund initiation claim
+  - UPI transaction receipt showing Rs 3,499 payment
+  - Order confirmation page with order ID OD3301234567
+  - Any email or SMS from Flipkart confirming the cancellation
+  - Screenshots of the refund status page (showing ‘pending’)
+  - Record of any phone calls (date, time, name of representative)
+General suggestions (not from sources):
+  - Keep all communications in writing (email or chat) rather than only verbal.
+  - Take screenshots of the refund status at regular intervals.
+  - Note down the names and employee IDs of any customer‑care representatives you speak with.
+  - Check Flipkart’s publicly posted refund policy to cite the specific time frame they promise.
+  - Maintain a log of dates when you sent each follow‑up.
+Missing information:
+  - Exact purchase date of the order
+  - Name or details of the seller (if any) on the marketplace
+  - Date when Flipkart said the refund was initiated and any reference number for that transaction
+  - Exact wording of Flipkart’s refund policy for cancelled orders
+Uncertainties:
+  - What the specific “reasonable period” for refund is under RBI guidelines, as the rule does not define a fixed number of days.
+  - Whether Flipkart’s internal SLA aligns exactly with the one‑month redressal period for grievance complaints.
+  - Seller‑specific return/refund terms that may be displayed on the product page.
+Lawyer: recommended=True — If the grievance officer does not resolve the refund within the statutory period or if the platform’s response is unsatisfactory, a lawyer can help draft the consumer commission complaint and represent you in the proceedings.
+Cited official sources:
+  [S1] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(4)-(8), pp. 8-9   (hybrid: BM25 rank 3, dense rank 2)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=8
+  [S2] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(9)-(11), p. 9   (hybrid: BM25 rank 7, dense rank 1)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=9
+  [S4] Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(1)-(3), p. 10   (hybrid: BM25 rank 12, dense rank 3)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=10
+Checks: {'demoted_uncited_protections': 0, 'removed_invalid_refs': [], 'unverified_mentions': []}
+
+--- DOCUMENT: refund_request (en) ------------------------------
+DRAFT — generated by NyayaAI for your review. Verify every fact, fill in all [PLACEHOLDERS], and consider consulting a qualified lawyer before sending. This is not legal advice.
+============================================================
+
+20 November 2026
+
+[YOUR FULL NAME]
+[YOUR ADDRESS]
+[YOUR EMAIL]
+[YOUR PHONE NUMBER]
+
+To,
+The Grievance Officer
+Flipkart
+[SELLER ADDRESS]
+
+Subject: Request for Refund of Rs 3,499 for Order ID OD3301234567
+
+Dear Sir/Madam,
+
+I am writing to formally request the refund of Rs 3,499 paid for order ID OD3301234567, which was for a pair of running shoes. The order was cancelled by me on 2 November 2026, prior to shipment, and the payment was made via UPI.
+
+Following the cancellation, I contacted your customer care team. I was informed that the refund had been initiated; however, despite the lapse of 18 days, the amount has not been credited to my account.
+
+As per the Consumer Protection (E‑Commerce) Rules, 2020 – Rule 10, "Every e‑commerce entity shall effect all payments towards accepted refund requests of the consumers ... within a reasonable period of time." Additionally, Rule 5 mandates that the grievance officer acknowledge any consumer complaint within forty‑eight hours and redress it within one month.
+
+In view of the above, I kindly request that the pending refund of Rs 3,499 be processed and credited to my UPI account without further delay. I have attached the cancellation email and chat screenshots as evidence of my prior communication.
+
+Please confirm receipt of this letter and inform me of the status of the refund at the earliest convenience.
+
+Thank you for your prompt attention to this matter.
+
+Yours faithfully,
+
+[YOUR FULL NAME]
+[YOUR SIGNATURE]
+
+Document checks: {'generator': 'llm', 'placeholders': 7, 'unknown_numbers': [], 'unverified_mentions': ['Rule 10', 'Rule 5']}
+
+--- DOCUMENT: consumer_grievance (en) ------------------------------
+DRAFT — generated by NyayaAI for your review. Verify every fact, fill in all [PLACEHOLDERS], and consider consulting a qualified lawyer before sending. This is not legal advice.
+============================================================
+
+20 November 2026
+
+To,
+The Grievance Officer,
+Flipkart Internet Private Limited,
+[FLIPKART ADDRESS]
+
+Subject: Complaint under Consumer Protection (E‑Commerce) Rules, 2020 for non‑receipt of refund for cancelled order OD3301234567
+
+Parties:
+- Complainant: [YOUR FULL NAME], residing at [YOUR ADDRESS], contact: [YOUR PHONE], email: [YOUR EMAIL].
+- Respondent: Flipkart Internet Private Limited, a marketplace e‑commerce entity, having its registered office at [FLIPKART ADDRESS].
+
+Facts:
+1. On 2 November 2026, the complainant placed an order (Order ID: OD3301234567) on the Flipkart platform for a pair of running shoes, paying Rs 3,499 via UPI.
+2. The same day, the complainant cancelled the order before the goods were shipped, as evidenced by the cancellation email attached.
+3. The complainant contacted Flipkart customer care, who informed that the refund had been initiated.
+4. Despite the assurance, the amount of Rs 3,499 has not been credited to the complainant’s bank/UPI account even after 18 days from the date of cancellation. Chat screenshots of the communication are attached.
+
+Grievance:
+The respondent has failed to effect the refund within a reasonable period as mandated by Rule 10 of the Consumer Protection (E‑Commerce) Rules, 2020, which requires e‑commerce entities to process refunds for accepted refund requests within a reasonable time. The continued non‑payment amounts to a deficiency in service and a violation of the consumer’s right to a speedy redressal.
+
+Relief Sought:
+1. Immediate credit of the pending refund amount of Rs 3,499 to the complainant’s original mode of payment.
+2. Confirmation in writing that the refund has been processed, including transaction reference details.
+3. Any interest or compensation permissible under the applicable consumer protection provisions for the delay.
+
+Documents Relied Upon:
+- Cancellation email dated 2 November 2026.
+- Chat screenshots showing the customer care’s acknowledgment of refund initiation.
+- Proof of payment (UPI transaction receipt) for Rs 3,499. [PROOF OF PAYMENT]
+
+The complainant requests that the grievance officer acknowledge receipt of this complaint within forty‑eight hours as per Rule 5 of the Consumer Protection (E‑Commerce) Rules, 2020, and redress the complaint within one month as stipulated therein.
+
+Yours faithfully,
+
+[YOUR SIGNATURE]
+[YOUR FULL NAME]
+
+Document checks: {'generator': 'llm', 'placeholders': 9, 'unknown_numbers': [], 'unverified_mentions': ['Rule 10', 'Rule 5']}
+
+==============================================================================
+AUTOMATIC CHECKS
+  [PASS] turn 1: reply language matches user (en)
+  [PASS] turn 1: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 1: no unverified legal references in reply
+  [PASS] turn 1: every displayed source is a real official indexed passage
+  [PASS] turn 2: reply language matches user (en)
+  [PASS] turn 2: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 2: no unverified legal references in reply
+  [PASS] turn 2: every displayed source is a real official indexed passage
+  [PASS] turn 3: reply language matches user (en)
+  [PASS] turn 3: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 3: no unverified legal references in reply
+  [PASS] turn 3: every displayed source is a real official indexed passage
+  [PASS] category as expected
+  [PASS] extracted amount_paid contains '3,499'
+  [PASS] extracted order_id contains 'OD3301234567'
+  [PASS] persisted in DB: messages
+  [PASS] persisted in DB: case_events (timeline)
+  [PASS] guidance returns 200
+  [PASS] every protection cites a retrieved source
+  [PASS] guidance has no unverified legal references
+  [PASS] guidance sources are real official indexed passages
+  [PASS] guidance language matches (en)
+  [PASS] guidance makes no outcome guarantees (model-written text only)
+  [PASS] guidance includes lawyer note
+  [PASS] document refund_request (en) returns 200
+  [PASS] document refund_request: labelled as DRAFT
+  [FAIL] document refund_request: no unverified legal references — ['Rule 10', 'Rule 5']
+  [PASS] document refund_request: no numbers absent from case record
+  [PASS] document refund_request: TXT download works
+  [PASS] document consumer_grievance (en) returns 200
+  [PASS] document consumer_grievance: labelled as DRAFT
+  [FAIL] document consumer_grievance: no unverified legal references — ['Rule 10', 'Rule 5']
+  [PASS] document consumer_grievance: no numbers absent from case record
+  [PASS] document consumer_grievance: TXT download works
+  => 32/34 passed

@@ -1,0 +1,56 @@
+==============================================================================
+TEST 05: unsupported_criminal_law
+Model: openai/gpt-oss-120b   |   Run: eval_20261120_213557
+User language: en   |   Case ID in MySQL: 61
+==============================================================================
+
+--- EXTRACTED CASE (stored in MySQL, after the conversation) ----------------
+  title: New consultation
+  category: out_of_scope
+  status: out_of_scope
+  language: en
+  seller_name: None
+  platform: None
+  product_details: None
+  order_id: None
+  purchase_date: None
+  delivery_date: None
+  amount_paid: None
+  description: None
+  previous_communication: None
+  evidence: None
+  desired_resolution: None
+  missing_information: []
+  timeline:
+    (none)
+
+--- TURN 1 ------------------------------------------------------------
+USER:
+My neighbour assaulted me and the police are refusing to register an FIR. Which IPC section applies and how do I get him arrested?
+
+ASSISTANT (en):
+I’m sorry, but NyayaAI only assists with consumer disputes related to purchases (e.g., defective goods, refunds, delivery issues). Your situation involves criminal law, which is outside our scope. You may want to contact a qualified lawyer, the local police superintendent, or a legal aid service for help with filing an FIR and understanding the relevant IPC provisions.
+
+Checks: scope=out_of_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- LEGAL GUIDANCE -----------------------------------------------------------
+OUT OF SCOPE:
+NyayaAI only covers consumer disputes about products bought (damaged/defective goods, refunds, non-delivery, wrong items, seller refusals). Your matter appears to be outside this scope, so NyayaAI cannot provide legal guidance on it. Please consult a qualified lawyer or the appropriate authority; in an emergency or if a crime is involved, contact the police.
+
+--- DOCUMENT: seller_complaint (en) ------------------------------
+HTTP 422: {'detail': "This case is outside NyayaAI's consumer-dispute scope; no documents can be drafted."}
+
+==============================================================================
+AUTOMATIC CHECKS
+  [PASS] turn 1: reply language matches user (en)
+  [PASS] turn 1: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 1: no unverified legal references in reply
+  [PASS] turn 1: every displayed source is a real official indexed passage
+  [PASS] category as expected
+  [PASS] persisted in DB: messages
+  [PASS] persisted in DB: case_events (timeline)
+  [PASS] guidance returns 200
+  [PASS] guidance refuses out-of-scope matter
+  [PASS] out-of-scope guidance names no IPC/section
+  [PASS] document seller_complaint: refused for out-of-scope case (422)
+  => 11/11 passed

@@ -1,0 +1,12 @@
+.env
+.mysql/
+__pycache__/
+*.pyc
+node_modules/
+frontend/dist/
+.pytest_cache/
+backend/eval_runs/
+Kuku — AI Generalist Assignment (1).pdf
+scripts/_solution.html
+*.tsbuildinfo
+.venv/

@@ -1,0 +1,153 @@
+==============================================================================
+TEST 04: insufficient_information
+Model: openai/gpt-oss-120b   |   Run: eval_20261120_213557
+User language: en   |   Case ID in MySQL: 60
+==============================================================================
+
+--- EXTRACTED CASE (stored in MySQL, after the conversation) ----------------
+  title: New consultation
+  category: unclear
+  status: intake
+  language: en
+  seller_name: None
+  platform: None
+  product_details: None
+  order_id: None
+  purchase_date: None
+  delivery_date: None
+  amount_paid: None
+  description: None
+  previous_communication: None
+  evidence: None
+  desired_resolution: None
+  missing_information: ["seller_name", "product_details", "purchase_date", "amount_paid", "description", "desired_resolution", "order_id", "previous_communication", "evidence"]
+  timeline:
+    (none)
+
+--- TURN 1 ------------------------------------------------------------
+USER:
+The company cheated me.
+
+ASSISTANT (en):
+I’m sorry you’re facing this issue. Could you tell me a bit more about the purchase?
+
+- Who is the seller/company and what product did you buy?
+- When did you place the order, how much did you pay, and do you have an order or invoice number?
+- What exactly went wrong (e.g., product damaged, not delivered, wrong item) and what response have you received from the seller?
+- What outcome are you hoping for (refund, replacement, etc.) and do you have any supporting evidence (photos, chats, emails)?
+
+Checks: scope=in_scope | removed invalid tags=[] | unverified legal mentions=[]
+
+--- LEGAL GUIDANCE -----------------------------------------------------------
+What happened:
+  You state that the company cheated you. No specific details about the product, purchase, or the nature of the cheating were provided.
+Protections (verified, cited):
+  - Misleading advertisement is defined as an advertisement that falsely describes a product or conceals important information, which is an unfair trade practice.  ['S1']
+  - Sellers on a marketplace e‑commerce platform are prohibited from adopting any unfair trade practice or falsely representing the quality or features of goods.  ['S8']
+  - Every e‑commerce entity must establish a grievance redressal mechanism and appoint a grievance officer who must acknowledge complaints within 48 hours and resolve them within one month.  ['S4']
+  - A consumer may file a complaint with the District Commission for any goods sold or for alleged unfair trade practice.  ['S2']
+  - False or misleading advertisements that prejudice consumers can attract imprisonment up to two years and a fine up to ten lakh rupees, with higher penalties for subsequent offences.  ['S5']
+Options:
+  - Contact the seller / platform grievance officer: Write a formal complaint to the seller or the grievance officer of the e‑commerce platform, citing the misleading advertisement and requesting a refund or replacement.  ['S4']
+  - File a complaint with the District Consumer Disputes Redressal Commission: Submit a written complaint (online or offline) to the District Commission under Section 35 of the CPA, 2019, seeking relief such as refund, compensation, or removal of the unfair practice.  ['S2']
+  - Approach the National Consumer Helpline: Call or email the National Consumer Helpline for guidance on filing a complaint and for assistance in communicating with the seller.  []
+  - Seek mediation through the e‑commerce platform: Use the platform’s internal dispute‑resolution or mediation facility, if available, to resolve the issue before approaching a consumer forum.  ['S4']
+  - Report the misleading advertisement to the Central Government authority: If the advertisement is clearly false, you may inform the appropriate central authority under the CPA, which can take action against the seller.  ['S1']
+Next steps:
+  - Gather all documents (order confirmation, invoice, screenshots of the advertisement, communication with the seller).
+  - Draft a clear, concise complaint to the seller/platform grievance officer, stating the facts, the misleading claim, and the remedy you seek (refund/replacement).
+  - If the seller does not respond within 48 hours or does not resolve within one month, proceed to file a complaint with the District Consumer Disputes Redressal Commission using the prescribed form.
+  - Simultaneously, contact the National Consumer Helpline for guidance and to record your grievance.
+  - Consider filing a complaint with the e‑commerce platform’s grievance officer as per Rule 4(4)‑(5) of the E‑Commerce Rules.
+Evidence to preserve:
+  - Order confirmation email or screenshot
+  - Invoice or receipt showing amount paid
+  - Screenshots or copies of the advertisement that you allege is misleading
+  - All email, chat, or message exchanges with the seller or platform support
+  - Photos or videos of the product received (if applicable)
+  - Bank statements or payment gateway transaction details
+General suggestions (not from sources):
+  - Keep all communications polite and factual; avoid emotional language.
+  - Maintain a timeline of events with dates to help the consumer forum understand the sequence.
+  - If the platform offers a “Return/Refund” button, use it and keep the confirmation screenshot.
+  - Do not share personal or financial details on public forums; only share with the seller or authorized authorities.
+  - If you are unsure about any legal term, consult a consumer rights lawyer before filing the formal complaint.
+Missing information:
+  - Name of the company or seller
+  - Exact product or service purchased
+  - Purchase date and order ID
+  - Amount paid
+  - Specific nature of the cheating (e.g., false claim, non‑delivery, defective product)
+  - What the seller/customer‑care has responded so far
+  - Desired resolution (refund, replacement, compensation, etc.)
+  - Any evidence you already have (advertisement copy, photos, chats, etc.)
+Uncertainties:
+  - The seller’s own return and refund policy, which may affect the remedy.
+  - Exact statutory time‑limit for filing a complaint, as it depends on the date of cause of action.
+  - Whether the misleading advertisement falls under “unfair trade practice” as defined by the specific facts.
+Lawyer: recommended=True — Because the facts are currently vague and the potential relief may involve filing a complaint with a consumer forum, consulting a qualified consumer law attorney is advisable to draft the complaint, assess any monetary claim, and ensure compliance with procedural deadlines.
+Cited official sources:
+  [S1] The Consumer Protection Act, 2019 (Act No. 35 of 2019) — Section 2(28)-(31), pp. 5-6   (hybrid: BM25 rank 9, dense rank 21)
+        https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf#page=5
+  [S2] The Consumer Protection Act, 2019 (Act No. 35 of 2019) — Section 35, p. 18   (hybrid: BM25 rank 21, dense rank 12)
+        https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf#page=18
+  [S4] Consumer Protection (E-Commerce) Rules, 2020 — Rule 4(4)-(8), pp. 8-9   (hybrid: BM25 rank 20, dense rank 26)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=8
+  [S5] The Consumer Protection Act, 2019 (Act No. 35 of 2019) — Section 89, p. 33   (hybrid: BM25 rank -, dense rank 1)
+        https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf#page=33
+  [S8] Consumer Protection (E-Commerce) Rules, 2020 — Rule 6(1)-(3), p. 10   (hybrid: BM25 rank 2, dense rank -)
+        https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf#page=10
+Checks: {'demoted_uncited_protections': 0, 'removed_invalid_refs': [], 'unverified_mentions': []}
+
+--- DOCUMENT: statement_of_facts (en) ------------------------------
+DRAFT — generated by NyayaAI for your review. Verify every fact, fill in all [PLACEHOLDERS], and consider consulting a qualified lawyer before sending. This is not legal advice.
+============================================================
+
+CHRONOLOGICAL STATEMENT OF FACTS
+
+Case: New consultation
+
+Seller / company: [NOT PROVIDED]
+Platform: [NOT PROVIDED]
+Product: [NOT PROVIDED]
+Order ID: [NOT PROVIDED]
+Purchase date: [NOT PROVIDED]
+Delivery date: [NOT PROVIDED]
+Amount paid: [NOT PROVIDED]
+Communication with seller: [NOT PROVIDED]
+Resolution sought: [NOT PROVIDED]
+Evidence available: [NOT PROVIDED]
+
+Timeline:
+[No timeline recorded yet]
+
+Declaration: I state that the above facts are true to the best of my knowledge.
+Name: [YOUR FULL NAME]    Signature: ____________    Date: 20 November 2026
+
+Document checks: {'generator': 'deterministic (no LLM)', 'placeholders': 11, 'unknown_numbers': [], 'unverified_mentions': []}
+
+==============================================================================
+AUTOMATIC CHECKS
+  [PASS] turn 1: reply language matches user (en)
+  [PASS] turn 1: every citation tag in reply is canonical and maps to a displayed source
+  [PASS] turn 1: no unverified legal references in reply
+  [PASS] turn 1: every displayed source is a real official indexed passage
+  [PASS] category as expected
+  [PASS] no facts invented for vague input
+  [PASS] assistant asks a follow-up question
+  [PASS] persisted in DB: messages
+  [PASS] persisted in DB: case_events (timeline)
+  [PASS] guidance returns 200
+  [PASS] every protection cites a retrieved source
+  [PASS] guidance has no unverified legal references
+  [PASS] guidance sources are real official indexed passages
+  [PASS] guidance language matches (en)
+  [PASS] guidance makes no outcome guarantees (model-written text only)
+  [PASS] guidance includes lawyer note
+  [PASS] vague case: guidance lists missing information
+  [PASS] document statement_of_facts (en) returns 200
+  [PASS] document statement_of_facts: labelled as DRAFT
+  [PASS] document statement_of_facts: no unverified legal references
+  [PASS] document statement_of_facts: no numbers absent from case record
+  [PASS] document statement_of_facts: TXT download works
+  => 22/22 passed

@@ -1,0 +1,269 @@
+[
+  {
+    "id": "cpa2019",
+    "title": "The Consumer Protection Act, 2019 (Act No. 35 of 2019)",
+    "short": "Consumer Protection Act, 2019",
+    "kind": "act",
+    "publisher": "India Code / Department of Consumer Affairs",
+    "attempts": [
+      {
+        "url": "https://www.indiacode.nic.in/bitstream/123456789/15256/1/eng201935.pdf",
+        "http_status": 504,
+        "content_type": "text/html",
+        "bytes": 278,
+        "error": "HTTP 504"
+      },
+      {
+        "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1236998
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/CP%20Act%202019_1732700731.pdf",
+    "file": "raw/cpa2019.pdf",
+    "sha256": "0ae7f82ab5b77d50087cd4cd2dd2dbc12755c0bdb31371fdefd042b020d50756",
+    "checked_at": "2026-11-20T13:53:16+00:00"
+  },
+  {
+    "id": "ecom_rules_2020",
+    "title": "Consumer Protection (E-Commerce) Rules, 2020",
+    "short": "E-Commerce Rules, 2020",
+    "kind": "rules",
+    "publisher": "Department of Consumer Affairs",
+    "attempts": [
+      {
+        "url": "https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1281359
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/E%20commerce%20rules_1732703966.pdf",
+    "file": "raw/ecom_rules_2020.pdf",
+    "sha256": "3012b37f6f6dba2d29523abf10f43fbb3a503768e578ef0fa02e4b9e4593bd0c",
+    "checked_at": "2026-11-20T13:53:18+00:00"
+  },
+  {
+    "id": "ecom_rules_2020_corrigendum",
+    "title": "Corrigendum to the Consumer Protection (E-Commerce) Rules, 2020",
+    "short": "E-Commerce Rules corrigendum",
+    "kind": "rules",
+    "publisher": "Department of Consumer Affairs",
+    "attempts": [
+      {
+        "url": "https://consumeraffairs.gov.in/public/upload/files/Corrigendum%20to%20e%20commerce%20rules_1732704181.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 789211
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/Corrigendum%20to%20e%20commerce%20rules_1732704181.pdf",
+    "file": "raw/ecom_rules_2020_corrigendum.pdf",
+    "sha256": "47f56d66c0df51a58694acb8b2833714bd65a85bd781161535708dfa59fb2086",
+    "checked_at": "2026-11-20T13:53:21+00:00"
+  },
+  {
+    "id": "ecom_amend_2021",
+    "title": "Consumer Protection (E-Commerce) (Amendment) Rules, 2021",
+    "short": "E-Commerce (Amendment) Rules, 2021",
+    "kind": "rules",
+    "publisher": "Department of Consumer Affairs",
+    "attempts": [
+      {
+        "url": "https://consumeraffairs.gov.in/public/upload/files/Consumer%20Protection%20(E-Commerce)%20(Amendment)%20Rules,%202021_1732704241.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1564930
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/Consumer%20Protection%20(E-Commerce)%20(Amendment)%20Rules,%202021_1732704241.pdf",
+    "file": "raw/ecom_amend_2021.pdf",
+    "sha256": "a7db1f7a8c900e0bc9c7fcb1f2921130ff85e6fac517fb5222efcf76cf559654",
+    "checked_at": "2026-11-20T13:53:25+00:00"
+  },
+  {
+    "id": "ecom_amend_2026",
+    "title": "Consumer Protection (E-Commerce) (Amendment) Rules, 2026",
+    "short": "E-Commerce (Amendment) Rules, 2026",
+    "kind": "rules",
+    "publisher": "Department of Consumer Affairs",
+    "attempts": [
+      {
+        "url": "https://consumeraffairs.gov.in/public/upload/files/E%20Commerce%20Amendment%20Rules%202026_1789127949.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1428970
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/E%20Commerce%20Amendment%20Rules%202026_1789127949.pdf",
+    "file": "raw/ecom_amend_2026.pdf",
+    "sha256": "78b0b8de1b6c0e9c8b9c639e4b2bc17ec65abcb807b34690529129e2a3014ab3",
+    "checked_at": "2026-11-20T13:53:27+00:00"
+  },
+  {
+    "id": "cdrc_rules_2020",
+    "title": "Consumer Protection (Consumer Disputes Redressal Commissions) Rules, 2020 & General Rules, 2020",
+    "short": "Consumer Commission Rules & General Rules, 2020",
+    "kind": "rules",
+    "publisher": "Department of Consumer Affairs",
+    "attempts": [
+      {
+        "url": "https://consumeraffairs.gov.in/public/upload/files/Consumer%20Commission%20Rules%20&%20General%20Rules_1732703661.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1650463
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/Consumer%20Commission%20Rules%20&%20General%20Rules_1732703661.pdf",
+    "file": "raw/cdrc_rules_2020.pdf",
+    "sha256": "65b360f6a62bb219ad35742adc48ee669ecda1dd3e28de7cd05f309f9f6f39da",
+    "checked_at": "2026-11-20T13:53:30+00:00"
+  },
+  {
+    "id": "jurisdiction_rules_2021",
+    "title": "Consumer Protection (Jurisdiction of the District Commission, the State Commission and the National Commission) Rules, 2021",
+    "short": "Pecuniary Jurisdiction Rules, 2021",
+    "kind": "rules",
+    "publisher": "Department of Consumer Affairs",
+    "attempts": [
+      {
+        "url": "https://consumeraffairs.gov.in/public/upload/files/232278_1732705181.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1182260
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/232278_1732705181.pdf",
+    "file": "raw/jurisdiction_rules_2021.pdf",
+    "sha256": "dd22dbfa7ac8bc0ef968765d6cd521ad7a29742afb071b9a919c164f83b765b7",
+    "checked_at": "2026-11-20T13:53:33+00:00"
+  },
+  {
+    "id": "mediation_rules_2020",
+    "title": "Consumer Protection (Mediation) Rules, 2020",
+    "short": "Mediation Rules, 2020",
+    "kind": "rules",
+    "publisher": "Department of Consumer Affairs",
+    "attempts": [
+      {
+        "url": "https://consumeraffairs.gov.in/public/upload/files/Mediation%20Rules_1732703912.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1427827
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/Mediation%20Rules_1732703912.pdf",
+    "file": "raw/mediation_rules_2020.pdf",
+    "sha256": "03e1a2b838afd37f1df5cec8cb10bed9256cb3bb8e9509fd7328c15ce089ae48",
+    "checked_at": "2026-11-20T13:53:36+00:00"
+  },
+  {
+    "id": "commission_procedure_regs_2020",
+    "title": "Consumer Protection (Consumer Commission Procedure) Regulations, 2020",
+    "short": "Consumer Commission Procedure Regulations, 2020",
+    "kind": "regulations",
+    "publisher": "Department of Consumer Affairs",
+    "attempts": [
+      {
+        "url": "https://consumeraffairs.gov.in/public/upload/files/220667_1732707483.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1553698
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/220667_1732707483.pdf",
+    "file": "raw/commission_procedure_regs_2020.pdf",
+    "sha256": "07eb8fd33f2b165e9d768476f30641dda84590546206c9c1a426ca00a6467a89",
+    "checked_at": "2026-11-20T13:53:39+00:00"
+  },
+  {
+    "id": "dark_patterns_2023",
+    "title": "Guidelines for Prevention and Regulation of Dark Patterns, 2023",
+    "short": "Dark Patterns Guidelines, 2023",
+    "kind": "guidelines",
+    "publisher": "Central Consumer Protection Authority / DCA",
+    "attempts": [
+      {
+        "url": "https://consumeraffairs.gov.in/public/upload/files/The%20Guidelines%20for%20Prevention%20and%20Regulation%20of%20Dark%20Patterns,%202023_1732707717.pdf",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "bytes": 1504461
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumeraffairs.gov.in/public/upload/files/The%20Guidelines%20for%20Prevention%20and%20Regulation%20of%20Dark%20Patterns,%202023_1732707717.pdf",
+    "file": "raw/dark_patterns_2023.pdf",
+    "sha256": "5961a07f1bc0778ee362165b262cd29cd99291ac76bd8b79bb2fa2bd50aa0472",
+    "checked_at": "2026-11-20T13:53:42+00:00"
+  },
+  {
+    "id": "nch_home",
+    "title": "National Consumer Helpline (NCH) - Home",
+    "short": "National Consumer Helpline",
+    "kind": "web",
+    "publisher": "National Consumer Helpline, DCA",
+    "attempts": [
+      {
+        "url": "https://consumerhelpline.gov.in/",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 142558
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumerhelpline.gov.in/",
+    "file": "raw/nch_home.html",
+    "sha256": "3f4031170a1c4fd73b8e63b8331b73125a1ade2c173e079c1f140157e68705ac",
+    "checked_at": "2026-11-20T13:53:43+00:00"
+  },
+  {
+    "id": "nch_about",
+    "title": "National Consumer Helpline (NCH) - About Us",
+    "short": "National Consumer Helpline - About",
+    "kind": "web",
+    "publisher": "National Consumer Helpline, DCA",
+    "attempts": [
+      {
+        "url": "https://consumerhelpline.gov.in/public/about",
+        "http_status": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 112894
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://consumerhelpline.gov.in/public/about",
+    "file": "raw/nch_about.html",
+    "sha256": "93090b1db2c93a54fc68c2b2da8a891327fdeba08d50509b17f1c75f33e630a0",
+    "checked_at": "2026-11-20T13:53:44+00:00"
+  },
+  {
+    "id": "ejagriti_home",
+    "title": "e-Jagriti consumer commission filing portal",
+    "short": "e-Jagriti portal",
+    "kind": "web",
+    "publisher": "Department of Consumer Affairs",
+    "attempts": [
+      {
+        "url": "https://e-jagriti.gov.in/",
+        "http_status": 200,
+        "content_type": "text/html",
+        "bytes": 888
+      }
+    ],
+    "status": "downloaded",
+    "url": "https://e-jagriti.gov.in/",
+    "file": "raw/ejagriti_home.html",
+    "sha256": "7ee3791bf1a9e74a01dfd935032f98dd2a8218105b8f8afbd3a51b3ee52d48e8",
+    "checked_at": "2026-11-20T13:53:53+00:00"
+  }
+]

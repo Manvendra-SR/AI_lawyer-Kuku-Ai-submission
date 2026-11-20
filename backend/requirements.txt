@@ -1,0 +1,22 @@
+# Exact versions tested in backend/.venv (Python 3.12). pypdf/bs4 versions affect extracted text and
+# therefore the index fingerprint, so they are pinned.
+#
+# Install CPU-only torch first (much smaller than the default CUDA build):
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+fastapi==0.165.0
+uvicorn==0.54.0
+SQLAlchemy==2.1.9
+PyMySQL==1.2.4
+cryptography==50.0.2
+pydantic==2.14.4
+pydantic-settings==2.16.3
+httpx==0.28.1
+pypdf==7.1.1
+beautifulsoup4==4.15.0
+numpy==2.5.5
+torch==2.15.0
+transformers==5.23.0
+sentence-transformers==6.3.0
+faiss-cpu==1.16.0
+pytest==9.2.0
+Markdown==3.11.3   # only for scripts/make_pdf.py
